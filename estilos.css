@@ -166,7 +166,7 @@ text-align: center;
 
 main h1
 {
-    text-align: center;
+text-align: center;
 
 }
 
@@ -421,6 +421,9 @@ height: 120px;
 margin-bottom: 60px;
 padding-left: 90px;}
 
+
+
+
 main .nombre2
 {
 
@@ -439,64 +442,112 @@ margin-left: 5px;
 
 main .servicios .one h2
 {
-padding-left: 170px;
+padding-left: 90px;
 }
 
 
 
-main .servicios .one .par
+
+
+main .servicios
 {
-display: none;
+display: flex;
+flex-direction: column;
+height: 200px;
+margin-bottom: 90px ;
+justify-content: center;
+padding-left: 70px;
+text-align: center;
 }
+
 
 main h1
 {
-text-align: center;
-padding-left: 130px;
+text-align: left;
+padding-left: 160px;
+height: auto;
 
 }
 
 
 main h3
 {
-text-align: center;
+text-align: left;
 color: var(--color-iconos-text);
-padding-left: 20px ;
+padding-left: 160px ;
+height: auto;
 
 }
 
 main .servicios
 {
 
-display: flex;
+display: contents;
 flex-direction: column;
-justify-content: center;
-align-items: center;
-width: auto;
+width: 200px;
+height: 100px;
+padding-bottom: 50px;
 }
 
-
-main .servicios .one
+main .servicios .one 
 {
-
-width: 250px;
-height: 80px;
-margin-right: 80px;
-padding-top: 5px;
+width:auto ;
+height: auto;
+padding-left: 50px;
+padding-bottom: auto;
 }
+
+
+
+main .servicios .one .par
+{
+font-weight: 100;
+text-align: center;
+padding-left: 100px;
+}
+
+
+
+
+main .hero .art .principal
+{
+margin-top:50px;}
+
+
+
+
 
 main .testimonios
 {
-display: none;
+display:contents;
 }
 
+
+main .testimonios .p
+{
+font-weight: 100;
+}
+
+
+main .testimonios .two
+{
+width: auto;
+height: auto;
+background-color: rgb(143, 157, 235);
+border-radius: 8px;
+border:none;
+justify-content: center;
+}
 
 main .cliente
 {display: none;}
 
 
 main .testimonio
-{display: none;}
+{text-align: left;
+margin-top: 60px;
+
+}
 
 
 
@@ -522,7 +573,7 @@ justify-content: center;
 
 footer .barra
 {
-    padding-left: 220px;
+padding-left: 220px;
 }
 
 footer h5
@@ -533,8 +584,9 @@ padding-left: 220px;
 
 main .cont
 {
-margin-left: 80px;
+margin-left: 60px;
 padding-top: 15px;
+margin-top: 60px;
 }
 
 

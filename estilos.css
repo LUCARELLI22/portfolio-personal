@@ -1,0 +1,595 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orelega+One&display=swap');
+
+
+:root
+{
+--fuente-gral : "Montserrat", sans-serif;
+--btn-header-color : rgb(123, 129, 239);
+--color-iconos-text:  indigo;
+--color-bi-text-center : rgb(12, 19, 138);
+--fuente-otros : "Orelega One", serif;
+}
+
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+background-image: url("images/fondo2.avif");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+
+
+header
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 150px;
+margin-bottom: 60px;}
+
+
+
+header nav
+{
+text-align: center;
+font-size: 25px;
+}
+
+
+header .bi-text-center
+{
+font-size: 20px;
+padding-left: 40px;
+color:  var(--color-bi-text-center);
+}
+
+header nav .barraup
+{
+text-decoration: none;
+margin-left: 60px;
+font-weight: 700;
+color: rgb(27, 21, 20);
+}
+
+
+header .btn
+{
+float: right;
+width: 80px;
+height: 30px;
+margin-right: 10px;
+border-radius: 8px;
+border: none;
+font-weight: 700;
+background-color: var(--btn-header-color);
+}
+
+
+header  .logo
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+padding-left: 9px;
+padding-top: 9px;
+}
+
+
+
+main .contactanos
+{
+display:flex;
+
+
+}
+
+main .contactanos .dato
+{
+font-weight: 600;
+}
+
+
+main .principal
+{
+margin-top: 20px;
+}
+
+main .servicios .one
+{
+
+width: 250px;
+height: 300px;
+margin-top: 100px;
+margin-right: 100px;
+padding-top: 60px;
+}
+
+main .servicios .one .bi-box-fill
+{
+color: var(--color-iconos-text);
+}
+main .servicios .one .bi-terminal-fill
+{
+color: var(--color-iconos-text);
+}
+main .servicios .one .bi-globe2
+{
+color: var(--color-iconos-text);
+
+}
+
+
+main .nombre2
+{
+text-align: left;
+font-weight: 600;
+padding-left: 15px;
+
+}
+
+main .nombre1
+{
+color: cornflowerblue;
+padding-left: 15px;
+}
+
+main .servicios .one .par
+{
+font-family: var(--fuente-otros);
+opacity: 0.6;
+}
+
+
+
+
+main .servicios
+{
+display: flex;
+height: 500px;
+margin-bottom: 90px ;
+justify-content: center;
+padding-left: 70px;
+text-align: center;
+}
+
+main h1
+{
+    text-align: center;
+
+}
+
+
+main h3
+{
+text-align: center;
+color: var(--color-iconos-text);
+}
+
+main .cont
+{
+height: 100px;
+opacity: 0.5;
+
+}
+
+main .contactanos .formulario
+{
+width: 400px;
+height: 300px;
+margin:  auto;
+text-align: left;
+padding: 20px;
+border: none;
+border-radius: 10px;
+background-color: #ccc;
+
+}
+
+
+main .contactanos .formulario .controls
+{
+margin-top: 10px;
+background-color: #ccc;
+border-radius: 10px;
+margin-bottom: 15px;
+background-color: #7886ad;
+color: var(--color-iconos-text);
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+}
+
+
+main .contactanos .formulario .area
+{
+width: 100%;
+padding: 12px 20px;
+margin-bottom: 20px;
+border-radius: 4px;
+font-size: 16px;
+}
+
+main .contactanos .formulario .enviar
+{
+border-radius: 8px;
+font-weight: 700;
+width: 150px;
+border: none;
+background-color: rgb(101, 63, 128);
+}
+
+main .navcon
+{
+margin-right: 140px;
+}
+
+main  .contactanos .navcon .bi-phone-vibrate
+{  color: var(--color-iconos-text);
+font-size: 40px;
+}
+
+
+main  .contactanos .navcon .bi-pin-map-fill
+{
+font-size: 40px;
+color: var(--color-iconos-text);
+}
+
+
+main  .contactanos .navcon .bi-envelope
+{
+color: var(--color-iconos-text);
+font-size: 40px;
+}
+
+main  .contactanos .navcon .dato
+{
+font-family: var(--fuente-otros);
+font-weight: 400;
+}
+
+
+
+
+main  .contactanos .navcon .eicon
+{
+display:flex;
+width: 50px;
+height: 50px;
+
+}
+
+
+
+main .hero 
+{
+display: flex;
+height: 500px;
+justify-content: space-between;}
+
+main .hero .principal .icon
+{
+color: black;
+margin-inline: 20px;
+
+}
+
+main .hero .art
+{
+width: 538px;  
+height: 289px;
+margin-top: 60px;
+}
+
+main .testimonios
+{
+display: flex;
+height: 400px;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: solid;
+border: none;
+border-radius: 10px;
+margin-bottom: 200px;
+
+}
+
+main .testimonios .two
+{
+
+width: 250px;
+height: 250px;
+margin-inline: 60px;
+padding-top: 60px;
+background-color: rgb(143, 157, 235);
+border-radius: 8px;
+border:none;
+justify-content: center;
+align-items: center;
+
+}
+
+main .testimonios .two .p
+{
+font-family: var(--fuente-otros);
+opacity: 0.6;
+}
+
+
+
+main .testimonio
+{justify-content: left;
+height: 70px;
+text-align: left;
+padding-left: 30px;
+
+}
+main .cliente
+{
+color: var(--color-iconos-text);
+padding-left: 20px;
+}
+
+main .testimonios .rostros
+{
+width: 80px;
+border-radius: 60%;
+position: relative;
+top: 50px;
+
+}
+
+
+main .testimonios .span
+{
+font-weight: 600;
+}
+
+main .testimonios .p
+{
+font-weight: 400;
+}
+
+main .testimonios .c
+{
+color: dimgray;
+}
+
+
+
+main .hero .nombre
+{
+text-align: left;
+padding-left: 20px;
+}
+
+
+
+main .imagen
+{
+width: 300px;
+height: 300px;
+border-radius: 8px;
+position: relative;
+right: 300px;
+}
+main .imagen1
+{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+rotate: 10deg;
+background-color: rgb(36, 36, 140);
+}
+
+footer
+{display:inline-block;
+height: 50px;
+text-align: center;margin-left: 600px; 
+margin-top: 60px;
+}
+
+footer .barra .icon{
+color: black;
+margin-inline: 20px;
+
+}
+/* -----------------------------------media queries (iphone 12 pro : 390x844 px )------------------------------------------------------------ */
+
+@media screen and (max-width: 390px) 
+{
+header
+{
+display: flex;
+align-items: center;
+align-items: center;
+justify-content: flex-start;
+height: 120px;
+margin-bottom: 60px;
+padding-left: 90px;}
+
+main .nombre2
+{
+
+font-weight: 400;
+height: 220px;
+padding-left: 20px;
+width: 210px;
+}
+main .nombre1
+{
+color: cornflowerblue;
+margin-left: 5px;
+
+
+}
+
+main .servicios .one h2
+{
+padding-left: 170px;
+}
+
+
+
+main .servicios .one .par
+{
+display: none;
+}
+
+main h1
+{
+text-align: center;
+padding-left: 130px;
+
+}
+
+
+main h3
+{
+text-align: center;
+color: var(--color-iconos-text);
+padding-left: 20px ;
+
+}
+
+main .servicios
+{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: auto;
+}
+
+
+main .servicios .one
+{
+
+width: 250px;
+height: 80px;
+margin-right: 80px;
+padding-top: 5px;
+}
+
+main .testimonios
+{
+display: none;
+}
+
+
+main .cliente
+{display: none;}
+
+
+main .testimonio
+{display: none;}
+
+
+
+main .imagen{
+width: 60px;
+height: 60px;
+position: absolute;
+right: 1px;
+}
+
+main .imagen1
+{
+width: 60px;
+height: 60px;
+}
+
+
+footer
+{display: inline;
+align-items: center;
+justify-content: center; 
+}
+
+footer .barra
+{
+    padding-left: 220px;
+}
+
+footer h5
+{
+padding-left: 220px;
+}
+
+
+main .cont
+{
+margin-left: 80px;
+padding-top: 15px;
+}
+
+
+main .contactanos
+{
+display: flex;
+flex-direction: column;
+padding-left: 120px;
+padding-bottom: 50px;
+}
+
+
+main .contactanos .formulario
+{
+width: 350px;
+height: 260px;
+margin:  auto;
+text-align: left;
+padding: 20px;
+border: none;
+border-radius: 10px;
+background-color: #ccc;
+}
+
+
+
+main  .contactanos .navcon .dato
+{
+font-weight: 300;
+
+}
+
+main  .contactanos .navcon .bi-phone-vibrate
+{  color: var(--color-iconos-text);
+font-size: 20px;
+}
+
+
+main  .contactanos .navcon .bi-pin-map-fill
+{
+font-size: 20px;
+color: var(--color-iconos-text);
+}
+
+
+main  .contactanos .navcon .bi-envelope
+{
+color: var(--color-iconos-text);
+font-size: 20px;
+}
+
+
+main .contactanos .navcon
+{
+display:none
+}
+
+}

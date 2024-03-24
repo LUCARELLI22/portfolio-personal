@@ -181,7 +181,7 @@ main .cont
 {
 height: 100px;
 opacity: 0.5;
-
+padding-left: 600px;
 }
 
 main .contactanos .formulario
@@ -433,6 +433,7 @@ font-size: 10px;
 header .logo
 {
 margin-left: 15px;
+margin-top: 20px;
 }
 
 main .imagen
@@ -519,7 +520,7 @@ main .servicios
 {
 display: flex;
 height: 350px;
-margin-bottom: 90px ;
+margin-bottom: 140px ;
 justify-content: space-between;
 padding-left: 50px;
 text-align: center;

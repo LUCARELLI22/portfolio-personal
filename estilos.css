@@ -45,6 +45,7 @@ header nav
 {
 text-align: center;
 font-size: 25px;
+text-shadow: 2px 2px 2px var(--btn-header-color);
 }
 
 
@@ -74,6 +75,7 @@ border-radius: 8px;
 border: none;
 font-weight: 700;
 background-color: var(--btn-header-color);
+box-shadow: 2px 2px 2px 2px black;
 }
 
 
@@ -84,6 +86,7 @@ height: 100px;
 border-radius: 50%;
 padding-left: 9px;
 padding-top: 9px;
+box-shadow: 4px 4px   var(--color-iconos-text);
 }
 
 
@@ -113,20 +116,27 @@ width: 250px;
 height: 300px;
 margin-top: 100px;
 margin-right: 100px;
-padding-top: 60px;
+padding-top: 20px;
+padding: 10px 10px 10px 10px;
+border: solid;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px var(--btn-header-color);
 }
 
 main .servicios .one .bi-box-fill
 {
 color: var(--color-iconos-text);
+
 }
 main .servicios .one .bi-terminal-fill
 {
 color: var(--color-iconos-text);
+
 }
 main .servicios .one .bi-globe2
 {
 color: var(--color-iconos-text);
+
 
 }
 
@@ -143,6 +153,7 @@ main .nombre1
 {
 color: cornflowerblue;
 padding-left: 15px;
+text-shadow: 2px 2px 2px black;
 }
 
 main .servicios .one .par
@@ -182,7 +193,9 @@ main .cont
 height: 100px;
 opacity: 0.5;
 padding-left: 600px;
+text-shadow: 2px 2px 2px indigo;
 }
+
 
 main .contactanos .formulario
 {
@@ -191,8 +204,9 @@ height: 300px;
 margin:  auto;
 text-align: left;
 padding: 20px;
-border: none;
+border: none ;
 border-radius: 10px;
+box-shadow: 3px 3px 3px 3px var(--btn-header-color);
 background-color: #ccc;
 
 }
@@ -238,6 +252,7 @@ main .navcon
 main  .contactanos .navcon .bi-phone-vibrate
 {  color: var(--color-iconos-text);
 font-size: 40px;
+text-shadow: 2px 2px 2px black;
 }
 
 
@@ -245,6 +260,7 @@ main  .contactanos .navcon .bi-pin-map-fill
 {
 font-size: 40px;
 color: var(--color-iconos-text);
+text-shadow: 2px 2px 2px black;
 }
 
 
@@ -252,6 +268,7 @@ main  .contactanos .navcon .bi-envelope
 {
 color: var(--color-iconos-text);
 font-size: 40px;
+text-shadow: 2px 2px 2px black;
 }
 
 main  .contactanos .navcon .dato
@@ -278,7 +295,28 @@ main .hero
 display: flex;
 height: 500px;
 justify-content: space-between;
-margin-bottom: 40px;}
+margin-bottom: 40px;
+}
+
+main .imagen
+{
+width: 300px;
+height: 300px;
+border-radius: 8px;
+position: relative;
+right: 300px;
+}
+
+
+main .imagen1
+{
+width: 300px;
+height: 300px;
+border-radius: 10px;
+rotate: 10deg;
+background-color: rgb(36, 36, 140);
+}
+
 
 main .hero .principal .icon
 {
@@ -316,8 +354,9 @@ height: 250px;
 margin-inline: 60px;
 padding-top: 60px;
 background-color: rgb(143, 157, 235);
-border-radius: 8px;
-border:none;
+border: solid;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px var(--color-iconos-text);
 justify-content: center;
 align-items: center;
 
@@ -378,23 +417,6 @@ padding-left: 20px;
 }
 
 
-
-main .imagen
-{
-width: 300px;
-height: 300px;
-border-radius: 8px;
-position: relative;
-right: 300px;
-}
-main .imagen1
-{
-width: 300px;
-height: 300px;
-border-radius: 10px;
-rotate: 10deg;
-background-color: rgb(36, 36, 140);
-}
 
 footer
 {display:inline-block;
@@ -535,6 +557,7 @@ width: 180px;
 margin-top: 100px;
 margin-right: 80px;
 padding-top: 20px;
+padding: 10px 10px 10px 10px ;
 align-items: center;
 justify-content: center;
 text-align: center;
@@ -577,8 +600,9 @@ height: 250px;
 margin-inline: 45px;
 padding-top: 60px;
 background-color: rgb(143, 157, 235);
-border-radius: 8px;
-border:none;
+border: solid;
+border-radius: 10px;
+box-shadow: 3px 3px 3px 3px var(--color-iconos-text);
 justify-content: center;
 align-items: center;
 
@@ -605,9 +629,11 @@ margin-left: 160px;
 
 footer
 {
-    display:inline;
-    width: 390px;
+display:inline;
+width: 390px;
 }
+
+
 footer .barra
 {
 display: flex;

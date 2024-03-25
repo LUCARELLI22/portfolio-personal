@@ -554,7 +554,7 @@ main .servicios .one
 {
 
 width: 180px;
-height: 300px;
+height: 20em;
 margin-top: 100px;
 margin-right: 80px;
 padding-top: 20px;
@@ -628,6 +628,10 @@ main .contactanos .formulario
 margin-left: 160px;
 height: 270px;
 }
+
+
+
+
 
 footer
 {
